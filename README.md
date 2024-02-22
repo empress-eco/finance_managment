@@ -1,30 +1,70 @@
-## FiMax (Beta)
+<div align="center">
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="FiMax Logo">
+    <p>
+    Streamline your business's loan and repayment management processes with FiMax.
+    <br />
+    <a href="https://grow.empress.eco/">Explore the Docs</a>
+    ·
+    <a href="https://github.com/empress-eco/finance_managment/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/finance_managment/issues">Request Feature</a>
+    </p>
+</div>
 
-FiMax is an application built on top of [Frappe Framework](https://github.com/frappe/frappe) intended to manage loans a repayment schedules for Customers.
+## About The Project
 
-Most of the work is done by Frappe and also it integrates with [ERPNext](https://github.com/frappe/erpnext), another application built on Frappe.
+### 📖 Overview
+FiMax is a powerful finance management application built for businesses. It simplifies loan and repayment scheduling for customers and integrates seamlessly with your existing financial applications. Whether you're a small business or a large corporation, FiMax is designed to enhance your financial strategy.
+
+### 🌟 Key Features
+- Efficient management of loans and repayments
+- Seamless integration with existing financial applications
+- Streamlined finance management processes
+- Built on the robust [Framework](https://github.com/Empress/Empress) and integrates with [Empress](https://github.com/Empress/Empress)
+
+## Getting Started
+
+### Prerequisites
+Before installing FiMax, ensure that you have [Framework](https://github.com/Empress/Empress) and [Empress](https://github.com/Empress/Empress) installed.
 
 ### Installation
+Setting up FiMax is easy, just follow these steps:
 
-The preferred way to install this app is using the [bench](https://github.com/frappe/bench) app provided by Frappe Contributors.
+1. Clone the FiMax repository:
 
-We recomend installing ERPNext before installing this app as it reuses most of the funcionalities written in the former.
+```sh
+git clone https://github.com/empress-eco/finance_managment.git
+```
 
-* Download the app and get it ready to install in the Framework
-		
-		bench get-app fimax https://github.com/YefriTavarez/fimax.git
-		
-* Install the application to the site
+2. Navigate to the cloned repository and install the application:
 
-		bench --site sitename install-app fimax
-		
-* Reload the bench for the changes to take efect (this is done automatically if sudoers are setup)
+```sh
+cd finance_managment
+bench --site your_site_name install-app fimax
+```
 
-		bench restart 
+3. Restart the bench to activate the changes:
 
-### License
+```sh
+bench restart
+```
 
-GNU/General Public License
+## Usage
+With FiMax, managing your loans and repayment schedules is a breeze. Once installed, you can start using it directly from your Empress dashboard.
 
-The Fimax code is licensed as GNU General Public License (v3) and the Documentation is licensed as Creative Commons (CC-BY-SA-3.0) and the copyright is owned by TZCODE, SRL and Contributors.
+## Contributing
+We value your contributions! Here's how you can help improve FiMax:
 
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
+
+Your ideas and code contributions can help make FiMax even better!
+
+## License and Acknowledgements
+
+This project is licensed under the MIT License.
+
+Special thanks to the Empress Community for their foundational contributions to this project. Your innovation and dedication continue to inspire us. We also want to thank TZCODE, SRL, and all contributors for their dedication to enhancing FiMax.
